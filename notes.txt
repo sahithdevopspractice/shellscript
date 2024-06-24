@@ -4,3 +4,13 @@ bash scipt and shell script both are same, first line should be she bang to exic
 
 echo is the command to print somehting in the schell script.
 example:- echo "hello world"
+
+VARIABLES:- is a powerfull concept in programming, which will be used to don't repeat yourself DRY.
+----------
+DRY:- don't repeat yourself.
+
+So here in schell script also we do have varibles concept,
+syntax is VAIABLE_NAME=VALUE
+example:- PERSON1=RAMESH
+          PERSON2=SURESH
+        Note:- No spaces, if you give spaces then it will be a syntax error.
