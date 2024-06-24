@@ -22,7 +22,31 @@ Less than or equal to -le, example $Number -le 100
     The Code which is repeating, can keep it in a function and call it when ever you want.
 ```
 syntax:-
-FUNCTION_NAME () {
+FUNCTION_NAME(){
     statements to run
 }
 ```
+# REDIRECTION:- 
+* This will help to store the output of a command to a perticular file, generally it is used to store the logs.
+* syntax:- command > file name, 
+* example:- 
+    ```
+    ls -ltr > temp.log
+    ```
+* By defauli it will store only the success output, We do have three other options to choose which outputs want to store.
+  1> it will store the success output. example:- ls -ltr 1> temp.log
+  2> it will store only error output. exampple:- dfghj 2> temp.log
+  &> it will store both success or failure. ls -ltr &> temp.log
+  > it will replace the previous output
+  >> it will append the output to the previous output. ls -ltr &>> temp.log
+  ```
+  $0 :- special variable in shell script to get the script name.
+  $@:- All arguments passed
+  $#:- How many arguments passed
+  $?:- Exit Status of previous command
+  $N:- Nth Argument
+  $1:- First Argument
+  $2:- Second Argument
+
+  ```
+
