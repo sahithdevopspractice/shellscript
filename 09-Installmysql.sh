@@ -18,3 +18,12 @@ then
 else 
     echo "Installing MYSql is Success"
 fi
+
+yum install git -y
+if [ $? -ne 0 ]
+then 
+    echo "ERROR:: Installing Git is Failed"
+    exit 1
+else 
+    echo "Installing Git is Success"
+fi
