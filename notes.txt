@@ -23,3 +23,15 @@ DATA TYPES:-
 -----------
 Generally we have diffeent types of data types in programming language like java, c++, those are like int, string, char, float, boolean, array, arraylist etc.
 Here in shell script it will take the data type automaticaaly, except array's.
+
+Install Mysql using shell script:-
+1- Check user is root or not?
+2-- if root proceed, if not root stop and send error, run with root user.
+3-- now install Mysql
+4-- check instaledd properly or not
+5-- if success
+      then good
+    if not successed
+      then show what is the error.
+so how to check root user or not?
+run the command id, for root users uid is always 0, if uid is not zero, then it is not a root user.
