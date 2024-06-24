@@ -14,3 +14,7 @@ syntax is VAIABLE_NAME=VALUE
 example:- PERSON1=RAMESH
           PERSON2=SURESH
         Note:- No spaces, if you give spaces then it will be a syntax error.
+So variables will if you change at one location it will change every where in the script.
+
+Q)-- HOW DO YOU RUN COMMANDS IN SHELL SCRIPT AND WILL TAKE OUTPUTS?
+$(<command>)
