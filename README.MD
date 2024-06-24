@@ -16,3 +16,6 @@ less than -lt, example:- $Number -lt 100
 Greater than or equal to -ge, example $Number -ge 100
 Less than or equal to -le, example $Number -le 100
 ```
+# EXIT STATUS:-
+    To check previous command is success or not. Shell script store the command result in EXIT STATUS, we can get it through ```$?```. If $? is equal to zero then it means the comand is successed, if not zero means the command is failed.
+
