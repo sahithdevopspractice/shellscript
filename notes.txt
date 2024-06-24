@@ -37,5 +37,3 @@ so how to check root user or not?
 run the command id, for root users uid is always 0, if uid is not zero, then it is not a root user.
 SHELL script don't stop if there is an error, it will proceed further.
 It is our responsibility to check and proceed.
-EXIT Status:-
--------------
