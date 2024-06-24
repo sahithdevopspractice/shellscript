@@ -1,0 +1,6 @@
+#!/bin/bash:--  this is the first line in shell script to start with, this is called shebang, to check the sysntax of our schell script,  we need to give the location of the bash,
+
+bash scipt and shell script both are same, first line should be she bang to exicute and check the syntax of our script, we need to give the location of shebang in the first line.
+
+echo is the command to print somehting in the schell script.
+example:- echo "hello world"
