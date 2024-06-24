@@ -54,7 +54,7 @@ FUNCTION_NAME(){
   * For GREEN COlor:- \e[32m
   * For YELLOW Color:- \e[33m
   * For Normal Color:- \e[0m
--Example:- `echo -e "\e[32m SUCCESS \e[0m"`
+* Example:- `echo -e "\e[32m SUCCESS \e[0m"`
 Here -e will enable the coloring option in shell script where [31m is the color codes.
 
 
