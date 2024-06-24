@@ -18,3 +18,8 @@ So variables will if you change at one location it will change every where in th
 
 Q)-- HOW DO YOU RUN COMMANDS IN SHELL SCRIPT AND WILL TAKE OUTPUTS?
 $(<command>)
+
+DATA TYPES:-
+-----------
+Generally we have diffeent types of data types in programming language like java, c++, those are like int, string, char, float, boolean, array, arraylist etc.
+Here in shell script it will take the data type automaticaaly, except array's.
