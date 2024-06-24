@@ -41,3 +41,12 @@ It is our responsibility to check and proceed.
 STORING LOGS:- Storing logs is important to track the work
 REDIRECTION:- command greaterthan symbol file time, it will store the output in the mentioned file.
 example:- ls -ltr > temp.log
+
+Coloring In Shell:-
+For RED:- \e[31m
+FOR GREEN:- \e[32m
+FOR YELLOW:- \e[33m
+normal color:- \e[0m
+echo --help
+if you want to enable color option the command is echo -e " \e[31m Statement \e[0m"
+Here \e means enable 31m is the code for red color.
