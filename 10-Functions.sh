@@ -19,6 +19,7 @@ if [$1 -ne 0]
     exit 1
 else
     echo "$2.... SUCCESS"
+fi
 }
 
 if [ $ID -ne 0 ]
