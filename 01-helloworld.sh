@@ -1,1 +1,3 @@
-Hi this is my first schell script
+#!/bin/bash
+
+echo "Hello Schell Script"
