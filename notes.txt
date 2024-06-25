@@ -50,3 +50,6 @@ normal color:- \e[0m
 echo --help
 if you want to enable color option the command is echo -e " \e[31m Statement \e[0m"
 Here \e means enable 31m is the code for red color.
+
+yum list installed-- to check what are the packages are installed, this command will be helpful to check what are the packaes are installed and to check the exit status, to check exit status run the command echo $?, if it gives a zero
+yum list installed git:- it will show git is installed or not and then chekc the exit status, to check the exit status command is echo $?, if the exit status is zero, then it means the package is installed.
